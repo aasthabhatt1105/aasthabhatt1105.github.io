@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aastha Bhatt | Space Systems Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            animation: slideDown 0.8s ease-out;
+        }
+
+        header .tagline {
+            font-size: 1.3em;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+
+        .intro {
+            padding: 50px 40px;
+            background: #f8f9fa;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .intro p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .highlight-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .highlight-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .highlight-card p {
+            color: #666;
+            font-size: 0.95em;
+            margin: 0;
+        }
+
+        .cta-section {
+            padding: 50px 40px;
+            text-align: center;
+            background: white;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 40px;
+            font-size: 0.95em;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header .tagline {
+                font-size: 1em;
+            }
+
+            .intro, .cta-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AASTHA BHATT</h1>
+            <div class="tagline">Space Systems Engineer | Mars Robotics | Satellite Communications | AI in Aerospace</div>
+        </header>
+
+        <div class="intro">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                I'm a Space Systems Engineering student at the International Space University (ISU) with a passion for Mars rover design, satellite communication systems, and AI applications in aerospace. My work focuses on designing sustainable and autonomous systems for planetary exploration and space-based infrastructure.
+            </p>
+
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h3>🚀 Mars Robotics</h3>
+                    <p>Designing rover systems with advanced power management, communication links, and autonomous payloads for planetary exploration.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🛰️ Satellite Communications</h3>
+                    <p>Ground station development and link budget analysis for space missions using S, X, and Ka band communications.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🤖 AI in Aerospace</h3>
+                    <p>Implementing artificial intelligence for autonomous systems, mission planning, and intelligent fault detection in space applications.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>⚡ Power Systems</h3>
+                    <p>Energy management and power distribution systems for space applications with focus on efficiency and reliability.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>📡 Signal Processing</h3>
+                    <p>Advanced signal processing, GNU Radio simulations, and communication link optimization.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🌌 Space Medicine</h3>
+                    <p>Exploring the effects of microgravity on human physiology and astronaut health in long-duration missions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="color: #667eea; margin-bottom: 30px;">Let's Connect</h2>
+            <a href="https://github.com/aasthabhatt1105" class="cta-button" target="_blank">GitHub Profile</a>
+            <a href="https://linkedin.com/in/aasthabhatt" class="cta-button" target="_blank">LinkedIn</a>
+            <a href="mailto:aasthabhatt1105@gmail.com" class="cta-button">Email Me</a>
+            <a href="https://github.com/aasthabhatt1105/aasthabhatt1105" class="cta-button" target="_blank">View README</a>
+        </div>
+
+        <footer>
+            <p>© 2026 Aastha Bhatt | Space Systems Engineer | ISU Graduate</p>
+            <p>
+                <a href="https://github.com/aasthabhatt1105" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/aasthabhatt" target="_blank">LinkedIn</a>
+                <a href="mailto:aasthabhatt1105@gmail.com">Email</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
